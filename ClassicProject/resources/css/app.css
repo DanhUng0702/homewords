@@ -1,0 +1,59 @@
+/* style của header */
+#inc_header {
+  font-family: sans-serif;
+  color: #45b62f;
+  border-color: #45b62f;
+} 
+/* list-style-type xóa dấu đầu dòng và theem màu nền */
+#menu {
+  background: #1F568B;
+  list-style-type: none; 
+  text-align: center;
+
+}
+#menu ul{
+  background: #369ece;
+  list-style-type: none; 
+  text-align: center;
+
+}
+/* để chỉnh các mục con thành hàng ngang ta có thể chọn
+ 2 kiểu là float: left cho tát cả các thẻ <li> hoặc hiển
+  thị kiểu inline-block */
+#menu li{
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+/* thêm style cho tehr <a> bên trong và cho các thẻ này hiển thị thành block để nó đc phủ kín #menu ul. */
+
+h1 h2{
+  background: #1F568B;
+}
+
+
+/* style của footer */
+
+/* để chỉnh các mục con thành hàng ngang ta có thể chọn
+ 2 kiểu là float: left cho tát cả các thẻ <li> hoặc hiển
+  thị kiểu inline-block */
+  #sidebar li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 300px;
+    height: 60px;
+    line-height: 25px;
+    margin-left: 0;
+    width: 30%;
+    font-size:20px;
+    text-align: left;
+  }
+  #sidebar ul {
+
+  width: 30%;
+  }
+
+/* style của sidebar */
